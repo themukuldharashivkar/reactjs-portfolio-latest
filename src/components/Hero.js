@@ -12,7 +12,7 @@ const Hero = () => {
   window.addEventListener('scroll', function() {
     const downArrow = this.document.querySelector(".down-arrow");
 
-    if (this.scrollY >= 90) downArrow.classList.add('hide-down-arrow');
+    if (this.scrollY >= 600) downArrow.classList.add('hide-down-arrow');
     else downArrow.classList.remove('hide-down-arrow');
   });
 
@@ -21,7 +21,7 @@ const Hero = () => {
       <h2 className="text-4xl lg:text-5xl text-orange-500 uppercase font-bold">
         Mukul Dharashivkar
       </h2>
-      <h3 className="py-3 text-2xl">Full Stack Software Developer</h3>
+      <h3 className="py-3 text-2xl">Full Stack Developer</h3>
       <p className="max-w-xl font-light text-gray-500">
         Hello <span className="animate-pulse text-4xl">👋</span>, welcome to my
         site. I am a freelance software engineer currently seeking full time software engineer job. I love to work on front end projects.
@@ -50,7 +50,7 @@ const Hero = () => {
         <a
           href="/Mukul_Dharashivkar_Resume.pdf"
           download={true}
-          className="flex items-center justify-center mt-10 bg-gradient-to-r from-orange-500 to-blue-700 hover:scale-125 duration-300 text-white py-2 rounded-lg"
+          className="flex items-center justify-center mt-10 bg-gradient-to-r from-orange-500 to-blue-700 hover:scale-125 duration-300 text-white py-2 rounded-lg border-2 border-blue-800 hover:border-white"
         >
           Resume
         </a>

@@ -12,9 +12,9 @@ const Contact = () => {
   return (
     <Section title="Contact Me" subtitle="Hope to hear from you soon">
       <div className="flex flex-col items-center justify-center gap-8 text-center">
-        <div>
+        {/* <div>
           <img src={contact} alt="contact info" className="w-32 h-32"></img>
-        </div>
+        </div> */}
         <div>
           <p className="max-w-xs md:max-w-lg font-extralight">
             I am open to talk regarding freelancing or full time opportunities.
@@ -57,7 +57,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="flex items-center justify-center">
-                    <button className="my-8 bg-gradient-to-r from-orange-500 to-blue-600 text-white px-6 py-3 uppercase rounded-md tracking-wider cursor-pointer hover:scale-125 duration-200">Send Message</button>
+                    <button className="my-8 bg-gradient-to-r from-orange-500 to-blue-600 text-white px-6 py-3 uppercase rounded-md tracking-wider cursor-pointer hover:scale-125 duration-200 border-2 border-blue-800 hover:border-white">Send Message</button>
                 </div>
             </form>
         </div>

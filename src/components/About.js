@@ -4,7 +4,7 @@ import AboutImg from "../assets/coder.png";
 
 const About = () => {
   return (
-    <Section title="About Me" subtitle="Full Stack Software Engineer">
+    <Section title="About Me" subtitle="Full Stack Developer">
       <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-evenly">
         <div className="about-info mx-auto justify-evenly">
           <p className="md:max-w-lg font-extralight pb-5 justify-center ">

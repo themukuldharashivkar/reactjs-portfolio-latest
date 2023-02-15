@@ -5,7 +5,7 @@ const Header = ({ darkMode, setDarkMode }) => {
   return (
     <header className="bg-white text-gray-900 dark:bg-gray-900 dark:text-white">
       <nav className="flex justify-between items-center p-5">
-        <h1 className="text-lg">Mukul</h1>
+        <h1 className="text-lg font-bold hover:scale-125 duration-150 hover:text-blue-600">Mukul</h1>
 
         <div onClick={() => setDarkMode(!darkMode)}>
           {darkMode ? (
