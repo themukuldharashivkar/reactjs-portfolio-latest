@@ -1,6 +1,6 @@
 import React from "react";
 import { FaTwitter, FaFacebook, FaLinkedin, FaArrowDown } from "react-icons/fa";
-import avatar from "../assets/avatar3.png";
+import avatar from "../assets/coder.png";
 
 const Hero = () => {
   const SOCIAL = [
@@ -18,7 +18,7 @@ const Hero = () => {
 
   return (
     <section className="min-h-screen flex flex-col justify-start items-center p-5 text-center">
-      <h2 className="text-5xl text-rose-600 uppercase font-bold">
+      <h2 className="text-4xl lg:text-5xl text-rose-600 uppercase font-bold">
         Mukul Dharashivkar
       </h2>
       <h3 className="py-3 text-2xl">Full Stack Software Developer</h3>
@@ -46,7 +46,7 @@ const Hero = () => {
         <img
           src={avatar}
           alt="avatar"
-          className="w-60 h-60 md:w-72 md:h-72 object-cover object-top bg-gradient-to-b from-rose-600 rounded-xl pt-5"
+          className="w-60 h-60 md:w-72 md:h-72 object-cover bg-gradient-to-b from-rose-600 rounded-xl pt-5"
         />
         <a
           href="/Mukul_Dharashivkar_Resume.pdf"
