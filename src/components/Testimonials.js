@@ -1,6 +1,6 @@
 import React from "react";
 import Section from "./common/Section";
-import avatar from "../assets/avatar.png";
+import avatar from "../assets/coder.png";
 
 const Testimonials = () => {
   const TESTIMONIALS = [

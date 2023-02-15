@@ -1,13 +1,13 @@
 import React from "react";
 import Section from "./common/Section";
-import { FaTwitter, FaFacebook, FaLinkedin, FaArrowDown } from "react-icons/fa";
+import { FaTwitter, FaGithub, FaLinkedin, FaArrowDown } from "react-icons/fa";
 import contact from "../assets/mobile.png";
 
 const Contact = () => {
   const SOCIAL = [
-    { id: 1, link: "https://www.twitter.com", icon: <FaTwitter /> },
-    { id: 2, link: "https://www.twitter.com", icon: <FaFacebook /> },
-    { id: 3, link: "https://www.twitter.com", icon: <FaLinkedin /> },
+    { id: 1, link: "https://www.twitter.com/themukul_99", icon: <FaTwitter /> },
+    { id: 2, link: "https://www.github.com/themukuldharashivkar", icon: <FaGithub /> },
+    { id: 3, link: "https://www.linkedin.com/in/themukuldharashivkar", icon: <FaLinkedin /> },
   ];
   return (
     <Section title="Contact Me" subtitle="Hope to hear from you soon">
@@ -23,7 +23,7 @@ const Contact = () => {
         </div>
         <div className="flex w-full items-center justify-evenly text-3xl">
           {SOCIAL.map(({ id, link, icon }) => (
-            <a href={link}  target="_blank" rel="noopener noreferrer" className="duration-200 ease-in-out hover:text-rose-600">{icon}</a>
+            <a href={link}  target="_blank" rel="noopener noreferrer" className="duration-200 ease-in-out hover:text-orange-500">{icon}</a>
           ))}
         </div>
 
@@ -57,7 +57,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="flex items-center justify-center">
-                    <button className="my-8 bg-gradient-to-r from-rose-600 to-teal-500 text-white px-6 py-3 uppercase rounded-md tracking-wider cursor-pointer hover:scale-105 duration-200">Send Message</button>
+                    <button className="my-8 bg-gradient-to-r from-orange-500 to-blue-600 text-white px-6 py-3 uppercase rounded-md tracking-wider cursor-pointer hover:scale-125 duration-200">Send Message</button>
                 </div>
             </form>
         </div>
