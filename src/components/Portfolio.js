@@ -14,28 +14,28 @@ const Portfolio = () => {
         {
             id: 1,
             image: p1,
-            title: "Personal Blog (Flask)",
+            title: "Personal Blog",
             github: "https://github.com/themukuldharashivkar/personal-mukul-blog-website",
             demo: "https://themukuldharashivkar-blog.onrender.com/"
         },
         {
             id: 2,
             image: p2,
-            title: "Movie Recommendation App",
+            title: "Movie Flix",
             github: "https://github.com/themukuldharashivkar/Movie-Flix",
             demo: "https://github.com/themukuldharashivkar/Movie-Flix"
         },
         {
             id: 3,
             image: p3,
-            title: "Tindog (HTML, CSS, Bootstrap)",
+            title: "Tindog",
             github: "https://github.com/themukuldharashivkar/Tindog-Website",
             demo: "https://tindog-website-chi.vercel.app/"
         },
         {
             id: 4,
             image: p4,
-            title: "ToDo List App",
+            title: "ToDo List",
             github: "https://github.com/themukuldharashivkar/ToDo-Website",
             demo: "https://github.com/themukuldharashivkar/ToDo-Website"
         },
@@ -49,7 +49,7 @@ const Portfolio = () => {
         {
             id: 6,
             image: p6,
-            title: "Expense Tracker (React JS))",
+            title: "Expense Tracker",
             github: "https://github.com/themukuldharashivkar/Expense-Tracker-ReactJS",
             demo: "https://expense-tracker-react-9mffr44hp-themukuldharashivkar.vercel.app/"
         },
