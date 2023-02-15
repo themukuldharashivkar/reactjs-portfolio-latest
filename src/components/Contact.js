@@ -1,7 +1,6 @@
 import React from "react";
 import Section from "./common/Section";
-import { FaTwitter, FaGithub, FaLinkedin, FaArrowDown } from "react-icons/fa";
-import contact from "../assets/mobile.png";
+import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
   const SOCIAL = [
