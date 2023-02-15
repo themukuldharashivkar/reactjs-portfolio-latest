@@ -12,7 +12,7 @@ const Hero = () => {
   window.addEventListener('scroll', function() {
     const downArrow = this.document.querySelector(".down-arrow");
 
-    if (this.scrollY >= 600) downArrow.classList.add('hide-down-arrow');
+    if (this.scrollY >= 1200) downArrow.classList.add('hide-down-arrow');
     else downArrow.classList.remove('hide-down-arrow');
   });
 
