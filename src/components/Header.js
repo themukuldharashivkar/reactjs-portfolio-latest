@@ -9,9 +9,9 @@ const Header = ({ darkMode, setDarkMode }) => {
 
         <div onClick={() => setDarkMode(!darkMode)}>
           {darkMode ? (
-            <MdWbSunny className="text-2xl cursor-pointer" />
+            <MdWbSunny className="text-2xl cursor-pointer hover:scale-125 hover:text-blue-600 duration-200" />
           ) : (
-            <MdNightsStay className="text-2xl cursor-pointer" />
+            <MdNightsStay className="text-2xl cursor-pointer  hover:scale-125 hover:text-blue-600 duration-200" />
           )}
         </div>
       </nav>
