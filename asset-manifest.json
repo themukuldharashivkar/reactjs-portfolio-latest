@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/reactjs-portfolio-latest/static/css/main.315b3f1a.css",
+    "main.js": "/reactjs-portfolio-latest/static/js/main.9d3ed0f9.js",
+    "static/media/coder.png": "/reactjs-portfolio-latest/static/media/coder.9e17c80d068554039049.png",
+    "static/media/top10.jpg": "/reactjs-portfolio-latest/static/media/top10.e22f07cb59f823cee007.jpg",
+    "static/media/programmer.png": "/reactjs-portfolio-latest/static/media/programmer.a0316087a16fda9d2a8e.png",
+    "static/media/movie.jpg": "/reactjs-portfolio-latest/static/media/movie.4488183c2c231b82bc9e.jpg",
+    "static/media/blog.jpg": "/reactjs-portfolio-latest/static/media/blog.c4444f4e7941bf2e17c3.jpg",
+    "static/media/js.png": "/reactjs-portfolio-latest/static/media/js.83903b30822753b81ed1.png",
+    "static/media/tindog.jpg": "/reactjs-portfolio-latest/static/media/tindog.56a2e5ebc0ddb9300260.jpg",
+    "static/media/jquery.png": "/reactjs-portfolio-latest/static/media/jquery.7f8e7cb24c694d32158c.png",
+    "static/media/todo.jpg": "/reactjs-portfolio-latest/static/media/todo.5baf6a8f2446fcb0ff3d.jpg",
+    "static/media/expense.png": "/reactjs-portfolio-latest/static/media/expense.08aed0d4d05ce445174c.png",
+    "static/media/spring.png": "/reactjs-portfolio-latest/static/media/spring.5d3a34e81adb6a9148fb.png",
+    "static/media/python.png": "/reactjs-portfolio-latest/static/media/python.cdf36ae7976f6b1ade0a.png",
+    "static/media/react.png": "/reactjs-portfolio-latest/static/media/react.ac14d2f265d39f14fb97.png",
+    "static/media/css.png": "/reactjs-portfolio-latest/static/media/css.5ddb60003daadbd2e679.png",
+    "static/media/mysql.png": "/reactjs-portfolio-latest/static/media/mysql.dc86b4ef19c17fcfa476.png",
+    "static/media/java.png": "/reactjs-portfolio-latest/static/media/java.0926ec615f0fb6f4cfa7.png",
+    "index.html": "/reactjs-portfolio-latest/index.html",
+    "main.315b3f1a.css.map": "/reactjs-portfolio-latest/static/css/main.315b3f1a.css.map",
+    "main.9d3ed0f9.js.map": "/reactjs-portfolio-latest/static/js/main.9d3ed0f9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.315b3f1a.css",
+    "static/js/main.9d3ed0f9.js"
+  ]
+}
