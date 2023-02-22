@@ -44,7 +44,7 @@ const Portfolio = () => {
             image: p5,
             title: "Top 10 Movies",
             github: "https://github.com/themukuldharashivkar/Top-10-Movie-Website",
-            demo: "https://github.com/themukuldharashivkar/Top-10-Movie-Website"
+            demo: "https://movies-list.onrender.com/"
         },
         {
             id: 6,
