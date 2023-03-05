@@ -8,6 +8,8 @@ import p3 from "../assets/tindog.jpg";
 import p4 from "../assets/todo.jpg";
 import p5 from "../assets/top10.jpg";
 import p6 from "../assets/expense.png";
+import p7 from "../assets/drum.png";
+import p8 from "../assets/simon.png";
 
 const Portfolio = () => {
     const projects = [
@@ -52,6 +54,20 @@ const Portfolio = () => {
             title: "Expense Tracker",
             github: "https://github.com/themukuldharashivkar/Expense-Tracker-ReactJS",
             demo: "https://expense-tracker-react-9mffr44hp-themukuldharashivkar.vercel.app/"
+        },
+        {
+            id: 7,
+            image: p7,
+            title: "Drum Set",
+            github: "https://github.com/themukuldharashivkar/Drum-Set-Website-using-JavaScript",
+            demo: "https://super-gecko-c5a330.netlify.app"
+        },
+        {
+            id: 8,
+            image: p8,
+            title: "Simon Game",
+            github: "https://github.com/themukuldharashivkar/Simon-Game-using-JavaScript-and-jQuery",
+            demo: "https://simon-game-jquery-md.netlify.app/"
         },
     ];
   return (
