@@ -5,7 +5,7 @@ import AboutImg from "../assets/coder.png";
 const About = () => {
   return (
     <Section title="About Me" subtitle="Full Stack Developer">
-      <div className="mx-auto grid md:grid-cols-2 items-center justify-between md:justify-evenly">
+      <div className="mx-auto lg:mx-10  md:mx-6 grid md:grid-cols-2 items-center justify-between md:justify-evenly">
         <div className="about-info mx-auto justify-between">
           <p className="md:max-w-lg font-extralight pb-5 justify-center ">
             Hi, I am Mukul Rajendra Dharashivkar and everyone calls me Mukul. I am a Full Stack Web Developer. I build beautiful websites with React and Tailwind CSS.
