@@ -34,7 +34,7 @@ const Hero = () => {
             key={id}
             target="_blank"
             rel="noopener noreferrer"
-            className="cursor-pointer duration-300 hover:text-orange-500"
+            className="cursor-pointer duration-300 hover:text-blue-600"
           >
             {icon}
           </a>
@@ -50,15 +50,15 @@ const Hero = () => {
         <a
           href="/Mukul_Dharashivkar_Resume.pdf"
           download={true}
-          className="flex items-center justify-center mt-10 bg-gradient-to-r from-orange-500 to-blue-700 hover:scale-125 duration-300 text-white py-2 rounded-lg border-2 border-blue-800 hover:border-white"
+          className="flex items-center justify-center mt-10 bg-gradient-to-r from-orange-500 to-blue-700 hover:scale-125 duration-300 text-white py-2 rounded-lg"
         >
           Resume
         </a>
       </div>
 
       {/* {arrow down animation} */}
-      <div className="mt-10 down-arrow">
-        <FaArrowDown className="text-gray-400 text-2xl animate-bounce" />
+      <div className="mt-10 mb-0 down-arrow">
+        <FaArrowDown className="text-orange-500 text-3xl animate-bounce" />
       </div>
     </section>
   );

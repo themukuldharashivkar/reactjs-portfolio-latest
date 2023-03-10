@@ -20,11 +20,11 @@ const Contact = () => {
             Feel free to contact me using your preferred medium.
           </p>
         </div>
-        <div className="flex w-full items-center justify-evenly text-3xl">
+        {/* <div className="flex w-full items-center justify-evenly text-3xl">
           {SOCIAL.map(({ id, link, icon }) => (
-            <a href={link}  target="_blank" rel="noopener noreferrer" className="duration-200 ease-in-out hover:text-orange-500">{icon}</a>
+            <a href={link}  target="_blank" rel="noopener noreferrer" className="duration-200 ease-in-out hover:text-blue-600">{icon}</a>
           ))}
-        </div>
+        </div> */}
 
         {/* bottom form */}
         <div className="p-8 text-left w-full">
@@ -56,7 +56,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="flex items-center justify-center">
-                    <button className="my-8 bg-gradient-to-r from-orange-500 to-blue-600 text-white px-6 py-3 uppercase rounded-md tracking-wider cursor-pointer hover:scale-125 duration-200 border-2 border-blue-800 hover:border-white">Send Message</button>
+                    <button className="my-8 bg-gradient-to-r from-orange-500 to-blue-600 text-white px-6 py-3 uppercase rounded-md tracking-wider cursor-pointer hover:scale-125 duration-200">Send Message</button>
                 </div>
             </form>
         </div>
