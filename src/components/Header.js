@@ -7,7 +7,7 @@ const Header = ({ darkMode, setDarkMode }) => {
   return (
     <header className="bg-white text-gray-900 dark:bg-gray-900 dark:text-white">
       <nav className="flex justify-between items-center p-5">
-        <h1 className="text-lg font-bold hover:scale-125 duration-150 hover:text-blue-600">
+        <h1 className="text-lg font-bold hover:scale-125 duration-150 text-blue-600 hover:text-orange-500">
           Mukul
         </h1>
 
