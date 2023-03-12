@@ -1,13 +1,7 @@
 import React from "react";
 import Section from "./common/Section";
-import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
-  const SOCIAL = [
-    { id: 1, link: "https://www.twitter.com/themukul_99", icon: <FaTwitter /> },
-    { id: 2, link: "https://www.github.com/themukuldharashivkar", icon: <FaGithub /> },
-    { id: 3, link: "https://www.linkedin.com/in/themukuldharashivkar", icon: <FaLinkedin /> },
-  ];
   return (
     <Section title="Contact Me" subtitle="Hope to hear from you soon">
       <div className="flex flex-col items-center justify-center gap-8 text-center">
