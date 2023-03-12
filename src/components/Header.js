@@ -1,6 +1,5 @@
 import React from "react";
 import { MdNightsStay, MdWbSunny } from "react-icons/md";
-import { FaTwitter, FaGithub, FaLinkedin, FaArrowDown } from "react-icons/fa";
 
 const Header = ({ darkMode, setDarkMode }) => {
   
