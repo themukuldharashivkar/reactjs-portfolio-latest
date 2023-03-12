@@ -40,7 +40,7 @@ const Hero = () => {
                 repeat={Infinity}
               />
             </div>
-      <p className="max-w-xl font-light text-gray-500">
+      <p className="max-w-xl font-light">
         Hello <span className="animate-pulse text-4xl">👋</span>, welcome to my
         site. I am a software engineer from India and currently I'm seeking full time software engineer job. I love to work on front end projects.
       </p>
