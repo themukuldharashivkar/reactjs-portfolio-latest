@@ -17,7 +17,6 @@ const About = () => {
           initial={{ x: -200, opacity: 0 }}
           transition={{ duration: 1.2 }}
           whileInView={{ x: 0, opacity: 1 }}
-          viewport={{ once: true }}
           className="mb-20 md:mb-0 flex-shrink-0 rounded-full w-56 h-56 object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[300px] xl:h-[350px]"
         />
         <div className="space-y-10 px-0 md:px-10">
