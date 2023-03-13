@@ -33,7 +33,6 @@ const Hero = () => {
       <h2 className="text-4xl lg:text-5xl text-orange-500 uppercase font-bold z-0">
         Mukul Dharashivkar
       </h2>
-<<<<<<< HEAD
       <div className="py-3 text-2xl font-semibold uppercase leading-[1] z-0">
         <span className="mr-4">I'm a</span>
         <TypeAnimation
@@ -52,26 +51,6 @@ const Hero = () => {
         />
       </div>
       <p className="max-w-xl font-light text-gray-500 z-0">
-=======
-      <div className="py-3 text-2xl font-semibold uppercase leading-[1]">
-              <span className="mr-4">I'm a</span>
-              <TypeAnimation
-                sequence={[
-                  "Full Stack Developer.",
-                  2000,
-                  "Freelancer.",
-                  2000,
-                  "Computer Engineer.",
-                  2000,
-                ]}
-                speed={30}
-                className="text-blue-600"
-                wrapper="span"
-                repeat={Infinity}
-              />
-            </div>
-      <p className="max-w-xl font-light">
->>>>>>> 8b7d1723f8118148c796a865261a28ad0093b5af
         Hello <span className="animate-pulse text-4xl">👋</span>, welcome to my
         site. I am a software engineer from India and currently I'm seeking full
         time software engineer job. I love to work on front end projects.
