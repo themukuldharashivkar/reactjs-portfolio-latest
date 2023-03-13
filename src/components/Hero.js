@@ -50,7 +50,7 @@ const Hero = () => {
           repeat={Infinity}
         />
       </div>
-      <p className="max-w-xl font-light text-gray-500 z-0">
+      <p className="max-w-xl font-extralight z-0">
         Hello <span className="animate-pulse text-4xl">👋</span>, welcome to my
         site. I am a software engineer from India and currently I'm seeking full
         time software engineer job. I love to work on front end projects.
@@ -74,7 +74,7 @@ const Hero = () => {
         <img
           src={avatar}
           alt="avatar"
-          className="w-60 h-60 md:w-72 md:h-72 sm:pt-5 object-cover bg-gradient-to-b from-orange-500 rounded-xl pt-5"
+          className="w-60 h-60 md:w-72 md:h-72 sm:pt-5 object-cover bg-gradient-to-b from-orange-500 rounded-3xl pt-5"
         />
         <a
           href="/Mukul_Dharashivkar_Resume.pdf"

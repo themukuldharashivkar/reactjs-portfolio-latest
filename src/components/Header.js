@@ -14,10 +14,10 @@ const Header = ({ darkMode, setDarkMode }) => {
         >
           <div className="text-lg font-bold hover:scale-110 duration-150 text-blue-600 hover:text-orange-500">
             <a
-              className="font-extralight cursor-pointer z-0"
+              className="font-extralight cursor-pointer z-0 uppercase"
               href="mailto:mukul.dharashivkar99@gmail.com"
             >
-              <AiOutlineMail className="inline text-2xl" /> Hire Me!
+              <AiOutlineMail className="inline-block text-2xl" /> Mail Me!
             </a>
           </div>
         </motion.div>
