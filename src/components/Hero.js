@@ -7,17 +7,17 @@ import BackgroundCircles from "./BackgroundCircles.js";
 
 const Hero = () => {
   const SOCIAL = [
-    { id: 1, link: "https://www.twitter.com/themukul_99", icon: <FaTwitter /> },
+    {
+      id: 1,
+      link: "https://www.linkedin.com/in/themukuldharashivkar",
+      icon: <FaLinkedin />,
+    },
     {
       id: 2,
       link: "https://www.github.com/themukuldharashivkar",
       icon: <FaGithub />,
     },
-    {
-      id: 3,
-      link: "https://www.linkedin.com/in/themukuldharashivkar",
-      icon: <FaLinkedin />,
-    },
+    { id: 3, link: "https://www.twitter.com/themukul_99", icon: <FaTwitter /> },
   ];
 
   window.addEventListener("scroll", function () {
@@ -79,7 +79,7 @@ const Hero = () => {
         <a
           href="/Mukul_Dharashivkar_Resume.pdf"
           download={true}
-          className="group flex items-center justify-center mt-10 bg-gradient-to-r from-orange-500 to-blue-700 hover:scale-125 duration-300 text-white py-2 rounded-lg z-0"
+          className="group flex items-center justify-center mt-10 bg-gradient-to-r from-orange-500 to-blue-700 hover:scale-125 duration-300 text-white py-2 rounded-lg z-0 uppercase font-semibold tracking-[3px]"
         >
           Resume{" "}
           <span>

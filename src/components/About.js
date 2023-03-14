@@ -23,13 +23,18 @@ const About = () => {
           <h4 className="text-2xl font-light">Here's a Little Background.</h4>
           <p className="text-base font-extralight">
             Hi, I am Mukul Rajendra Dharashivkar and everyone calls me Mukul. I
-            am a Full Stack Web Developer. I build beautiful websites with React
-            and Tailwind CSS. I have recently completed my Bachelor of
-            Engineering in Computer Engineering from Progressive Education
-            Society's Modern College of Engineering, Pune. I am proficient in
-            ReactJS, Spring, Spring Boot, Bootstrap, Flask, Tailwind CSS and
-            many more. In backend I can work in Spring, Spring Boot, MySQL,
-            Flask. In my spare time I play cricket and read blogs.
+            am a Full Stack Web Developer. I always have been interested in how
+            websites are created. I build beautiful websites with React and
+            Tailwind CSS. I have recently completed my Bachelor of Engineering
+            in Computer Engineering from Progressive Education Society's Modern
+            College of Engineering, Pune.
+          </p>
+          <p className="text-base font-extralight">
+            I am proficient in ReactJS, Spring, Spring Boot, Bootstrap, Flask,
+            Tailwind CSS and many more. In backend I can work in Spring, Spring
+            Boot, MySQL, Flask. I am looking for new opportunities to implement
+            and increase my skills in software development and web development.
+            In my spare time I play cricket and read blogs.
           </p>
         </div>
       </motion.div>
